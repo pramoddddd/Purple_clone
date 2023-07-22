@@ -1,0 +1,1048 @@
+  
+#menu{
+    height: 64px;
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    position: relative; 
+    background-color: white;
+}
+#menubar{
+    font-size: 14px;;
+    display: flex;
+    align-content: center;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-right: 10%; */
+    /* margin-left: 50px; */
+    /* border: 1px solid black; */
+
+}
+#menubar>div{
+    font-weight: bold;
+    /* padding:10px 10px; */
+    /* margin-right: 30px; */
+    margin-left: 40px;
+}
+#menubar>div:hover{
+    cursor: pointer;
+}
+#menubar>div:nth-child(1):hover{
+    color: black;
+    background-color: #EEEEEE;
+}
+
+#purpleLogo{
+    width: 100px;
+    height: 56px;
+    /* margin:0px 40px; */
+}
+
+#newbar{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    /* position: fixed; */
+}
+
+
+
+#newbar>button{
+border: transparent;
+background-color: white;
+padding: 10px;
+margin-right: 5px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* The Modal (background) */
+.modal {
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%; 
+height: 100%;
+overflow: auto;
+}
+
+/* Modal Content */
+.modal-content {
+background-color: #ffeef9;
+padding: 20px;
+box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.055);
+margin:41px 0px 0px 40px;
+width: 917px;
+height: 366px;
+display: flex;
+}
+
+#JustIn{
+display: grid;
+/* margin-right: 140px; */
+width:auto;
+margin-left: 100px;
+/* font-size: 20px; */
+
+
+}
+#just{
+width:auto;
+display: grid;
+grid-template-rows: repeat(2, 1fr);
+align-content:space-around;
+}
+#just>div{
+width:auto
+}
+.newBrand img{
+height: 90px;
+width: 131px;
+cursor: pointer;
+}
+.newBrand{
+margin: 20px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 20px;
+}
+.par{
+margin: 0px 20px;
+}
+#byconcern img{
+height:90px;
+cursor: pointer;
+}
+#byconcern{
+margin: 20px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 10px;
+font-size: 15px;
+color: black;
+text-align: center;
+}
+
+
+
+/*------------------------------------------============================ more============================== ---------------------------------------------  */
+
+.more{
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+}
+.more-content{
+display: flex;
+background-color: #fefefe;
+box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.055);
+width:764px;
+height: 250px;
+margin-left: 30%;
+}
+.more-content img{
+height: 214px;
+width: 160px;
+margin: 15px;
+cursor: pointer;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++acount+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.acount{
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 70px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+margin-left: 100px;
+}
+.triangleup {
+width: 0;
+height: 0;
+border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+border-bottom: 25px solid #f3ecec;
+margin-left: 79%;
+margin-top: -15px;
+}
+#acountContent{
+background-color: #f3ecec;
+box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.219);
+height: 226px;
+width: 172px;
+padding: 20px;
+margin-left: 70%;
+}
+#loginS{
+font-size: 13px;
+color: white;
+font-weight: bold;
+/* margin: 15px 0px; */
+cursor: pointer;
+text-align: center;
+padding:7px;
+margin-bottom: 10px;
+background-color:#ff147b ;
+}
+#newC{
+margin-left: 10px;
+font-size: 13px;
+}
+
+#startHC{
+      color: #ff006a;
+      margin-left: 10px;
+  }
+#loginSign{
+font-size: 13px;
+color: black;
+/* font-weight: bold; */
+/* margin: 15px 0px; */
+cursor: pointer;
+/* padding: 10px; */
+margin-bottom: 10px;
+/* background-color:#ff147b ; */
+}
+#order, #payment{
+display: flex;
+font-size: 14px;
+padding: 7px;
+border-top:1px solid rgba(128, 128, 128, 0.363);
+justify-content: space-between;
+cursor: pointer;
+}
+#payment:hover{
+color:#ff147b ;
+}
+#order:hover{
+color:#ff147b ;
+
+}
+
+/*  ====================================================================acount sign ===============================================================================*/
+#acountSignContent{
+background-color: #f3ecec;
+box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.219);
+height: 170px;
+width: 212px;
+padding: 20px;
+margin-left: 70%;
+font-family: Arial, Helvetica, sans-serif;
+}
+#hiUser{
+font-size: 24px;
+text-align: center;
+margin-bottom: 10px;
+}
+#userValue{
+font: 12px;
+margin: 10px;
+}
+#order{
+font-size: 14px;
+/* height: 58px;
+width: 172px; */
+}
+#logOut>button{
+height: 34px;
+width: 172px;
+margin-left: 20px;
+}
+/* ===================================================================login/Signup================================================================================== */
+.loginOrSignup{
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.4);
+background-blend-mode: lighten;
+}
+#loginContent{
+width: 648px;
+margin:5% 30%;
+background-color: white;
+}
+#cross{
+padding: 30px;
+color: rgba(128, 128, 128, 0.377);
+cursor: pointer;
+}
+#log{
+/* margin-top: 20px; */
+/* margin-left: 20px; */
+font-size: 24px;
+font-weight: 700;
+/* background-color: black; */
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+
+
+/* padding-top: 20px; */
+}
+#loginArea{
+/* display: flex; */
+width: 598px;
+height: 200px;
+padding: 20px;
+justify-content: space-between;
+/* border: 1px solid black; */
+}
+
+#OTPBTN{
+width: auto;
+padding: 10px;
+font-weight: bold;
+font-size: 12px;
+border-radius: 6px;
+border: none;
+}
+#OTPBTN:hover{
+background-color: #ff006a;
+color: white;
+}
+#signupArea{
+width: 257px;
+height: 216px;
+}
+#signupDes{
+height: 48px;
+font-size: 16px;
+margin: 5px 0px;
+}
+#signMo>button{
+height: 48px;
+width: 257px;
+font-size: 14px;
+color: white;
+background-color: black;
+border:transparent;
+}
+#signMo>button:hover{
+background-color: #9B9b9B;
+cursor: pointer;
+}
+#signTerm{
+height: 32px;
+font-size: 12px;
+margin: 15px 0px;
+}
+#hrAr{
+height: 216px;
+width: 30px;
+margin:0px 40px;
+}
+#hr{
+width: 1px;
+height: 70px;
+background-color: rgba(128, 128, 128, 0.459);
+margin-left: 10px;
+}
+#Or{
+margin: 10px 0px;
+font-weight: bold;
+color: rgba(128, 128, 128, 0.459);;
+}
+#logIn{
+height: 216px;
+}
+#logInDes{
+height: 48px;
+font-size: 16px;
+margin: 5px 0px;
+}
+#logIn button{
+height: 48px;
+width: 257px;
+font-size: 14px;
+color: black;
+background-color: white;
+border:1px solid rgba(128, 128, 128, 0.527);
+margin-bottom: 5px;
+
+}
+#logIn button:hover{
+background-color: #9B9b9B;
+cursor: pointer;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Signup Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` */
+body{
+    font-family: sans-serif;
+}
+.logUp{
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.4);
+}
+#logUpContent{
+width: 40%;
+height: 500px;
+background-color: white;
+margin: auto;
+padding: 40px;
+/* background-color: #001325; */
+}
+#signbacklogin {
+color: #ff147b;
+font-family: 'Times New Roman', Times, serif;
+margin-left: 40%;
+margin-top: 18px;
+border: none;
+background-color: white;
+cursor: pointer;
+
+}
+#logUpContent p{
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+}
+#signupsubmit{
+font-family: 'Times New Roman', Times, serif;
+width:100%;
+background-color: #ff147b;
+color: white;
+font-weight: bold;
+padding:10px;
+height: 40px;
+border: none;
+}
+#back{
+padding: 30px;
+color: rgba(128, 128, 128, 0.377);
+cursor: pointer;
+}
+#backed{
+display: flex;
+justify-content: space-between;
+}
+
+.us1{
+height: 57px;
+width: 260px;
+margin-bottom: 10px;
+background-color: rgba(128, 128, 128, 0.247);
+color: gray;
+cursor: pointer;
+}
+.us1:hover{
+border-bottom: 1px solid rgb(247, 12, 208) ;
+}
+.us2{
+font-size: 12px;
+color: gray;
+padding: 10px 0px 0px 10px;
+cursor: pointer;
+}
+.us3>input{
+height: 24px;
+width: 200px;
+border: transparent;
+background-color: transparent;
+cursor: pointer;
+}
+.us3{
+margin-left: 10px;
+cursor: pointer;
+}
+.us3>input:focus{
+outline:none;
+cursor:text;
+} 
+#signUp>button{
+height: 50px;
+width: 260px;
+margin-left: 200px;
+font-size: 30px;
+font-weight: bold;
+color: white;
+background-color: rgb(201, 91, 168);
+border: transparent;
+}
+#signUp>button:hover{
+background-color: rgb(228, 30, 168);
+cursor: pointer;
+}
+#gbsignIn{
+text-align: center;
+margin: 10px;
+cursor: pointer;
+color: gray;
+}
+#gbsignIn:hover{
+color: black;
+}
+
+
+/* ==================================================================sign in page================================================================================= */
+
+body{
+    font-family: sans-serif;
+}
+.Signin{
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.4);
+}
+
+#TryElite{
+        width:40px;
+        height: 31px;
+        /* border: 1px solid black; */
+        margin-top:15px;
+        margin-bottom: 10px;
+        margin-left: 3px;
+        /* margin-right: 30px; */
+    }
+    #heartsymbole{
+        height: 100%;
+        width: 50px;
+        /* border: 1px solid black; */
+        margin-left: 20px;
+    }
+  
+
+    #Loginnumber{
+        width:50%;
+        height: 30px;
+        border-color: transparent;
+    }
+    #LoginBtn{
+        width:10%;
+        height: 50px; 
+    }
+    #newbar1{
+        margin-left: 100px;
+    }
+    #LoginBtn:hover{
+        background-color: lightpink;
+    }
+    .signuin{
+        width:100%;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    body{
+        cursor: pointer;
+    }
+   #primerShow:hover{
+    color: #ff147b;
+    border-bottom: #ff147b;
+   }
+   #searchicon{
+        height: 90%;
+        width: 35px;
+        /* border: 1px solid black;    */
+        margin-left: 20px;         
+    }
+ 
+
+
+
+    /* ....................................search option............................................ */
+
+    #searchOption{
+        width:22%;
+        height: 60%;
+        /* border: 1px solid black; */
+        /* margin-top:10px;   */
+        display: flex; 
+        margin-left:90px;
+    }   
+
+ 
+    #heartsymbole{
+        height: 90%;
+        width: 35px;
+        /* border: 1px solid black;    */
+        margin-left: 20px;  
+        /* margin-left: 20px; */
+    }
+    #smily{
+        height: 90%;
+        width: 35px;
+        /* border: 1px solid black;    */
+        margin-left: 20px;  
+        /* margin-left: 20px;  */
+    }
+    #cone{
+        height: 90%;
+        width: 40px;
+        /* border: 1px solid black;    */
+        margin-left: 20px;  
+        background-size: 100%;
+        background-image: url("https://cdn-icons-png.flaticon.com/512/2169/2169842.png");
+        /* margin-left: 20px;   */
+    }
+    #cartAddnum{
+        width:60%;
+        height: 60%;
+        float: right;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        background-color: #ff147b;
+        border-radius: 50px;
+    }
+
+
+    /* ..............................................slideshow..................................... */
+
+    #slideshow{
+        width:98%;
+        margin: auto;
+        height: 400px;
+         /* border: 1px solid black;  */
+        /* margin-top: 40px; */
+    }
+    .imgsize{
+        width:100%;
+        height: 100%;
+    } 
+
+    /* ..............................day offer.................................. */
+
+    .dayOffers{
+        width:98%;
+        margin: auto;
+        height: 100px;
+         /* border: 1px solid black;  */
+        margin-top: 40px;
+    }
+    .giftCode{
+        width:98%;
+        margin: auto;
+        height: 270px;
+         /* border: 1px solid black;  */
+        margin-top: 40px;
+    }
+    /* ................................body part....................................... */
+
+    .offimag{
+        width:100%;
+        height: 100%;  
+    }
+    #storeSlide{
+        width:98%;
+        /* border: 1px solid black; */
+        margin: auto;
+        margin-top: 30px;
+        display: flex;   
+        justify-content: left;
+        height: 300px;
+         
+    }
+    .image{
+        width:300px;
+        margin-right: 20px;
+    }
+    .image img{
+        width:100%;
+        height: 100%;
+    } 
+    /* .......................................flash cell............................................. */
+    #flashCell{
+        width:98%;
+        /* border: 1px solid black; */
+        margin: auto;
+        margin-top: 30px;
+        display: flex;   
+        justify-content: left;
+        height: 340px; 
+    }  
+    .flashimage{
+        width:250px;
+        margin-right: 20px;
+    }
+    .flashimage img{
+        width:100%;
+        height: 100%; 
+    }
+    /* ..............................................feature........................................ */
+    .featureTitle{
+        width:98%;
+        margin: auto;
+        height: 100px;
+         /* border: 1px solid black;  */
+        margin-top: 40px;
+    }
+    .featureTitle>img{
+        width:100%;
+        height: 98%;
+    }
+  
+    #featuredivs{
+        width:98%;
+        /* border: 1px solid black; */
+        margin: auto;
+        display: flex;   
+        justify-content: left;
+        height: 300px;  
+    }
+    #featuredivs2{
+        width:98%;
+        /* border: 1px solid black; */
+        margin: auto;
+        display: flex;   
+        justify-content: left;
+        height: 300px; 
+        margin-top: 20px;
+    }
+    .feature{
+      width:240px;
+      margin-right: 25px;  
+      height: 100%;
+      /* border: 1px solid red; */
+    }
+    .Fimgdiv{
+        width:230px;
+        height: 220px;
+        /* border: 1px solid green; */
+    }
+    .Fimgdiv img{
+        width:100%;
+        height: 88%;
+    }
+    .Ftitle{
+        color:#868e96 ;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .Fprice{
+        font-weight: bold;
+        font-size: 22px;
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+    .Foffers{
+        color: #ff006a;
+        font-size: 15px;
+        margin-top: 10px;
+
+    }
+    .Fbtn{
+        width:100%;
+        height: 12%;
+        background-color: #2c414c;
+        color: white;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .Fbtn:hover{
+        background-color: black;
+        color:wheat;
+    }
+    /* .........................................two divs................................... */
+    .twodivs{
+        width:98%;
+        margin: auto;
+        height: 300px;
+         /* border: 1px solid black;  */
+        margin-top: 40px;
+        display: flex;
+    }
+    .fd1{
+        width:49%;
+        margin-right:1%;
+    }
+    .fd1 img{
+        width:100%;
+        height: 100%;
+    }
+    /* .........................................brandd................................... */
+    #beautybrandsdiv{
+        width:98%;
+        /* border: 1px solid black; */
+        margin: auto;
+        margin-top: 30px;
+        display: flex;   
+        justify-content: left;
+        height: 450px; 
+    }
+
+
+    
+    .brandimage{
+        width:300px;
+        margin-right: 20px;
+    }
+    .brandimage img{
+        width:100%;
+        height: 100%; 
+    }
+    #giftSets{
+        width:98%;
+        /* border: 1px solid black; */
+        margin: auto;
+        margin-top: 30px;
+        display: flex;   
+        height: 440px; 
+    }
+    .g1{
+        width:50%;
+    }
+    .g1 img{
+        width:100%;
+        height: 100%;
+    }
+    /* .........................................notify........................................... */
+    #notify{
+        width:98%;
+        margin: auto;
+        height: 200px;
+         /* border: 1px solid black;  */
+        margin-top: 40px; 
+    }
+    #notify img{
+        width:100%;
+        height: 100%;
+    }
+    /* ...................................free shiping.............................................. */
+
+    #freeShiping{
+        width:98%;
+        margin: auto;
+        height: 270px;
+         border: 1px solid black; 
+        margin-top: 40px; 
+    }
+    #freeShiping img{
+        width:100%;
+        height: 100%;
+    }
+    /* ....................................footer............................................... */
+    #footer{
+        width:90%;
+        margin: auto;
+        height: 220px;
+        /* margin-top: 40px;  */
+        display: flex; 
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+
+  .rd1{
+      
+      margin-right: 60px;
+  } 
+  /* ....................................hr........................................... */
+  hr{
+      width:95%;
+  }
+  /* --------------------------------------end------------------------------------------------- */
+  #endBrands{
+    width:90%;
+        margin: auto;
+        height: 30px;
+         /* border: 1px solid black;  */
+        margin-top: 10px; 
+        display: flex; 
+  }
+  .endbr{
+      width:50%;
+      height: 100%;
+      display: flex;
+  }
+  .linkdiv{
+      width:35px;
+      height: 100%;
+      /* border: 1px solid black; */
+      margin-right: 10px;
+  }
+  .linkdiv img{
+      width:100%;
+      height: 100%;
+  }
+  #scro{
+      overflow: scroll;
+      margin-top: 100px;
+  } 
+
+
+  /* .................................................cart css................................... */
+
+
+
+/* ...........................................cart css end.......................................... */
+
+/* .....................................paymentcss............................................. */
+#addressPageDetails{
+       width:80%;
+       margin: auto;
+       margin-top: 30px;
+       /* border: 1px solid black; */
+       height: 500px;
+       display: flex;
+   }
+   #addrressPage{
+       float: left;
+       width:64%;
+       height: 100%;
+       /* border: 1px solid red; */
+       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;       }
+   #newAD{
+       width:100%;
+       height: 45px;
+       /* border: 1px solid black; */
+       background-color:#c1c1c13f ;
+       font-family: 'Times New Roman', Times, serif;
+   }
+   #addressput{
+    width:92%;
+       /* border: 1px solid black; */
+       font-family: 'Times New Roman', Times, serif;
+       padding: 25px;
+   }
+   #Mrop{
+       margin-right: 40px;
+   }
+   #ADname{
+       width:300px;
+       border: none;
+   }
+   .inp{
+    border: none;
+    width:400px;
+    height: 30px;
+   }
+   #saveContinue{
+       width:250px;
+       padding: 12px;
+       font-size: 20px;
+       font-weight: bold;
+       background-color:#ff147b ;
+       color: white;
+       border: none;
+       margin-left: 20%;
+   }
+   #Logindetails{
+       width:33%;
+       margin-left: 2%;
+       /* border: 1px solid black; */
+       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;       }
+   #loginbold{
+       font-weight: bold;
+       font-size: 18px;
+       font-family: 'Times New Roman', Times, serif;
+   }
+   #chekdeliver{
+       margin-left: 80px;
+       color: #ff147b;
+       font-family: 'Times New Roman', Times, serif;
+
+   }
+   .TP{
+       float: left;
+   }
+   .PR{
+       float: right;
+   }
+   #TP{
+    font-weight: bold;
+       font-size: 24px;
+       font-family: 'Times New Roman', Times, serif; 
+   }
+   #TPR{
+    font-weight: bold;
+       font-size: 24px;
+       font-family: 'Times New Roman', Times, serif;  
+   }
+   #freeshiping{
+    width:100%;
+       height: 40px;
+       /* border: 1px solid black; */
+       background-color:#c1c1c13f ;
+       margin-bottom: 20px;
+       font-family: 'Times New Roman', Times, serif;
+       background-color: #404548;
+        color: white;
+
+   }
+   #freeshiping>p{
+       margin-left: 15px;
+       font-family: 'Times New Roman', Times, serif;
+   }
+   #monthend{
+       display: flex;
+       
+   }
+   #monthd{
+       width:100px;
+       height: 22px;
+       margin-right: 20px;
+   }
+   #imgabcc{
+       margin-left: 80px;
+   }
+   #imgabc{
+       height:30px;
+   }
+   #imgabc>img{
+       height: 100%;
+   }
+   #L1{
+       width:100%;
+       height: 20px;
+   }
+   #ADshow{
+       height: 75px;
+   }
+   
+  #city{
+      margin-right: 25px;
+  }
+#adnam{
+    color: #ff006a;
+}
+#changeaddr{
+    margin-left: 110px;
+
+}
+#GoToAddrPage{
+    background-color: #ff006a6e;
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+}
+#GoToAddrPage:hover{
+    background-color: #ff006a;
+    color: white;
+}
+
+/* ..................................................payment end........................................ */
+

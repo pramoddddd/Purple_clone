@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./styles/login.css">
+
+
+</head>
+<body>
+<div id="menu">
+    <div id="logoId">
+        <img id="purpleLogo" src="https://media6.ppl-media.com/static/purplle/img/purplle-logo-1.svg" alt="">
+    </div>
+        <div id="TryElite">
+            <img src="https://media6.ppl-media.com/mediafiles/ecomm/promo/1537798844_try-logo-3x.png" width="100%" height="100%" >
+    </div>
+
+        <div id="menubar">
+            <div id="newbar1" onclick="jumpToWomen()" onmouseover="newBar1()">SHOP CATEGORIES</div>
+            <div id="newbar2" onclick="jumpToMen()" onmouseover="newBar2()">BRANDS</div>
+            <div id="newbar3" onclick="jumpToKid()" onmouseover="newBar3()">OFFERS</div>
+            <div id="newbar4" onclick="jumpToHome()" onmouseover="newBar4()">NEW</div>
+            <div id="newbar5" onclick="jumpToTech()" onmouseover="newBar5()">SPLURGE</div>
+            <div id="newbar6" onmouseover="newBar6()">MAGAZINE</div>
+        </div>
+        
+
+
+
+
+        <!-- ......................................wishlist................................................ -->
+
+        <div id="searchOption">
+            <div id="searchicon">
+                <img 
+                src="https://cdn-icons-png.flaticon.com/512/482/482631.png"
+                height="100%"
+                width="100%"
+                >
+            </div>
+            <div id="heartsymbole" id="wishList" onclick="wishFun()" >
+                <img
+                src="https://cdn-icons-png.flaticon.com/128/1216/1216575.png"
+                width="100%"
+                height="100%"
+                >
+            </div>
+
+            <div id="smily" id="Account" onmouseover="acFunction()" >
+                <img
+                src="https://cdn-icons-png.flaticon.com/128/158/158420.png"
+                width="100%"
+                height="100%"
+                >
+
+            </div>
+            <div id="cone">
+                <div id="cartAddnum">0</div>
+               
+
+            </div>
+        </div>
+
+
+
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< wishlist end>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+
+
+
+
+    </div> 
+</div>
+    </div>
+    <div id="newbar"></div>
+
+    <!--==========================================================================================Women=======================================================-->
+    <!--========================================================================= 1.Whats new===================================================================-->
+<div id="myModal" class="modal">
+   <!-- Modal content  -->
+   <div class="modal-content">
+    <!-- <span class="close"></span> -->
+<div id="JustIn">
+    <div>Face </div>
+     <div id="just">
+        <div class="rd1">
+              <div onclick="primerShow()" id="primerShow">Primer</div>
+               <div>Concealer</div>
+               <div>Foundation</div>
+               <div>Compact</div>
+               <div>Loose Poweder</div>
+               <div>Blush</div> 
+               <div>Bronzer</div>
+               <div>Counter</div> 
+               <div>sindoor</div> 
+        </div>
+ </div>
+    </div>
+    <div>
+        <div class="par">LIP </div>
+        <div class="newBrand">
+            <div class="rd2">
+               <div>Lipstick</div>
+                <div>Lip Liner</div>
+                <div>Lip Gloss</div>
+                <div>Lip Balm</div>
+                <div>Lip Stains</div>
+           </div>
+        </div>
+    </div>
+    <div>
+        <div class="par">BRUSHES</div>
+        <div class="newBrand">
+            <div class="rd3">
+                <div>Face brushes</div>
+                 <div>Eye Brushes</div>
+                 <div>Lip Brushes</div>
+                 <div>Tweezers</div>
+                 <div>Mirror</div>
+                 <div>Sharpener</div> 
+            </div>      
+          </div> 
+    </div>
+    <div>
+        <div class="par">BY CONCERN</div>
+        <div id="byconcern">
+            <div class="rd4">
+                <div></div>
+                 <div>Sarees</div>
+                 <div>Dresses</div>
+                 <div>Kurta Sets </div>
+                 <div>Lehengas</div>
+                 <div>Jewellery</div> 
+                 <div> Bags</div>
+                 <div> Masks</div> 
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!--======================================================mens What's new========================================================================= -->
+<!-----------------------------------------------------------------More------------------------------------------------------------------- -->
+
+
+  <!-- -------------------------------------------------------------------account (no sign)---------------------------------------------------------------- -->
+  <div id="acount" class="acount">
+    <div class="triangleup"></div>
+      <div id="acountContent">
+
+        <div id="loginS" onclick="signinf()"> Sign In </div>
+
+          <div id="loginSign" onclick="wishFun()"><span id="newC">New custumer?</span><span id="startHC">Start hear</span> </div>
+          <div id="order" onclick="wishFun()">
+              <div>Your Orders</div>
+              <!-- <div><i class="fas fa-box-open"></i></div> -->
+          </div>
+          <div id="payment" onclick="wishFun()">
+              <div>Payment Methods</div>
+              <!-- <div><i class="fas fa-credit-card"></i></div> -->
+          </div>
+          <div id="payment" onclick="wishFun()">
+            <div>Your Wishlist</div>
+            <!-- <div><i class="fas fa-credit-card"></i></div> -->
+        </div>
+        <div id="payment" onclick=" signupsubmit()">
+            <div>Logout</div>
+            <!-- <div><i class="fas fa-credit-card"></i></div> -->
+        </div>
+
+
+      </div>
+  </div>
+  <!------------------------------------------------------------------------account (sign in)--------------------------------------------------------------->
+
+  <div id="acountSign" class="acount">
+      <div class="triangleup"></div>
+      <div id="acountSignContent">
+          <div id="hiUser">Hi User!</div>
+          <div id="userValue"></div>
+          <div id="order">
+              <div>Orders</div>
+              <div><i class="fas fa-box-open"></i></div>
+          </div>
+          <div id="logOut" onclick="logOut()"><button>Logout</button></div>
+      </div>
+  </div>
+  
+  <!--======================================================================================Login/Signup Page============================================================ -->
+  <div id="loginOrSignup" class="loginOrSignup">
+      <div id="loginContent">
+          <div id="close">
+              <div id="cross" style="color: black;">Login/Create Account</div>
+          </div> 
+
+          <!-- <div id="log">Login</div> -->
+          <div id="loginArea"> 
+              <div style="display: flex;">
+                <input type="number" placeholder="Enter Your Mobile No." id="Loginnumber"/>
+                <button onclick="OTPBTN()" id="OTPBTN">
+                   OTP SEND
+                </button>
+              </div><br><br>
+              <div style="display: flex;">
+                <input type="number" placeholder="Enter OTP." id="Loginnumber"/>
+                <button onclick="openSign()" id="LoginBtn">
+                    <img 
+                    src="https://cdn-icons-png.flaticon.com/128/545/545682.png"
+                    width="100%"
+                    height="100%"
+                    >
+                </button>
+              </div><br><br>
+
+
+          </div>
+
+      </div>
+  </div>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`````SignUp Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<div id="logUp" class="logUp">
+    <div id="logUpContent">
+        <div id="log">Welcome Aboard</div>
+        <p>Let's know you the better and make sure that you never lose access to your account</p>
+        <input type="text" placeholder="Enter Your Name" id="signupname" class="signuin" required/>
+        <input type="email" placeholder="Enter Email" id="signupemail" class="signuin" required/>
+        <input type="number" placeholder="Enter mobile " id="signupmobile" class="signuin" required/>
+        <input type="password" placeholder="Create password" id="signupPass" class="signuin" required/>
+        <button id="signupsubmit" onclick="signupsubmit()">SUBMIT</button>
+        <button onclick="BTLogin()" id="signbacklogin">Back To Login</button>
+     
+    </div>
+</div>
+
+<!-- ....................................slider................................................... -->
+
+<!-- ................................................body part...................................... -->
+
+
+
+<!-- .........................................payment page....................................... -->
+  
+
+
+<div id="addressPageDetails">
+    <div id="addrressPage">
+        <div id="freeshiping">
+            <p> , Welcome to Purplle!</p>
+        </div>
+        <div id="newAD">
+            <h3>LOG IN</h3>
+        </div>
+        <div id="addressput">
+           
+            <!-- <span> -->
+                <input type="name" placeholder="Email Enter" id="ADname" required />
+                <hr><br><br>
+                <input type="password" placeholder="password" id="CardNumber" class="inp" required />
+                <hr><br><br>
+
+                <div id="savethis">
+               
+                  <input type="checkbox" id="checkbox">
+              
+                        <span>Remember me</span>
+                 </div>
+                 <br><br>
+
+              
+                <button onclick="gotohome()" id="saveContinue">Log In</button><br><br>
+
+
+            <!-- </span> -->
+        </div>
+    </div>
+    
+   </div>
+</div>
+
+
+
+
+<!-- .....................................payment page end............................................... -->
+
+<!-- .............................................notification................................................... -->
+<div id="notify">
+    <img
+    src="https://media6.ppl-media.com/tr:w-1280,c-at_max/mediafiles/ecomm/misc/1639028230_alert-strip-web.jpg"
+    >
+</div>
+
+<!-- ...........................................freeshiping........................................................ -->
+<div class="freeShiping">
+    <img
+    src="https://media6.ppl-media.com/tr:w-1280,c-at_max/mediafiles/ecomm/misc/1639028231_benefit-icons-strip-web.jpg"
+    >
+</div>
+<!-- .......................................footer part............................................... -->
+<div id="footer">
+    <div class="rd1">
+        <h5 onclick="jumpToWomen()">PURPLLE</h5>
+          <div>About us</div>
+           <div>Our team</div>
+           <div>Careers</div>
+           <div> Press</div>
+           <div>Sitemap</div>
+    </div>
+    <div class="rd1">
+        <h5 onclick="jumpToWomen()">PURPLLE  BUSINESS</h5>
+          <div>Sell on Purplle</div>
+          
+    </div>
+    <div class="rd1">
+        <h5 onclick="jumpToWomen()">POLICY INFO</h5>
+          <div>Privacy Policy</div>
+           <div>Teams Of Use</div>
+           <div>Return & Cancellation Policy</div>              
+    </div>
+    <div class="rd1">
+        <h5 onclick="jumpToWomen()">NEED HELP ?</h5>
+          <div>FAQ's</div>
+           <div>Contact Us</div>
+           
+    </div>
+    
+
+ </div>
+ <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>hori..................................................... -->
+ <hr>
+
+ <!-- ------------------------------------------- end bgrands photos------------------------------------------- -->
+ <div id="endBrands">
+     <div class="endbr">
+        <img
+        src="https://media6.ppl-media.com/mediafiles/ecomm/promo/1499177379_tt.jpg"
+        width="70%"
+        height="100%"         
+        >
+     </div>
+     <div class="endbr">
+        <div  class ="linkdiv" id="facebook">
+            <a href="">
+                <img
+                src="https://cdn-icons-png.flaticon.com/128/145/145802.png"
+                >
+            </a>
+        </div>
+        <div  class ="linkdiv" id="twitter">
+            <a href="">
+                <img
+                src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png"
+                >
+            </a>
+        </div>
+        <div  class ="linkdiv" id="instagram">
+            <a href="">
+                <img
+                src="https://i.insider.com/57333f71dd089577098b46bc?width=1000&format=jpeg&auto=webp"
+                >
+            </a>
+        </div>
+        <div  class ="linkdiv" id="watsapp">
+            <a href="">
+                <img
+                src="https://cdn-icons-png.flaticon.com/512/124/124034.png?w=360"
+                >
+            </a>
+        </div>
+        <div  class ="linkdiv" id="emails">
+            <a href="">
+                <img
+                src="https://cdn-icons-png.flaticon.com/128/732/732200.png"
+                >
+            </a>
+        </div>
+       
+
+     </div>
+   
+ </div>
+   
+
+</body>
+</html>
+
+
+
+
+
+<script src="./script/login.js">
+
+
+</script>
+
+
+
+
